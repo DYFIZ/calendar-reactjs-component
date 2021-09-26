@@ -1,0 +1,94 @@
+        @font-face {
+            font-family: "Maven Pro Regular";
+            font-style: normal;
+            font-weight: 400;
+            src: url('../fonts/MavenPro-Regular.eot');
+            src: local('Maven Pro Regular'), local('Maven Pro Regular'), url('../fonts/MavenPro-Regular.ttf') format('truetype'), url('../fonts/MavenPro-Regular.eot') format('embedded-opentype'), url('../fonts/MavenPro-Regular.woff') format('woff');
+        }
+        
+        .calendarContentWrapper {
+            position: relative;
+            max-width: 320px;
+            width: 100%;
+        }
+        
+        .calendarContainer {
+            max-width: 320px;
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9em;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+            padding: 10px;
+        }
+        
+        .header {
+            display: flex;
+            color: #fff;
+            background-color: rgb(32, 142, 16);
+            font-weight: 400;
+            font-size: 16px;
+            text-transform: uppercase;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .currentMonth {
+            padding: 10px;
+            width: 50px;
+        }
+        
+        .currentYear {
+            display: block;
+        }
+        
+        .controlButton {
+            display: flex;
+            justify-content: space-between;
+            width: 50px;
+        }
+        
+        .button {
+            cursor: pointer;
+            font-family: "Maven Pro Regular";
+            font-size: 14px;
+            text-decoration: none;
+            -webkit-font-smoothing: antialiased;
+            width: 25px;
+            height: 25px;
+            border: solid 1px transparent;
+        }
+        
+        .weekContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: solid 1px rgb(231, 225, 225);
+        }
+        
+        .captionWeekName {
+            width: 50px;
+            text-align: center;
+            padding: 5px;
+            color: rgb(155, 144, 144);
+            font-weight: bold;
+        }
+        
+        .datesContainer {
+            display: flex;
+            align-content: center;
+        }
+        
+        .dateElement {
+            border: solid 1px rgb(231, 225, 225);
+            padding: 5px;
+            width: 33px;
+            text-align: center;
+        }
+        
+        .currentDate {
+            background-color: rgb(32, 142, 16);
+            color: #fff;
+            padding: 5px;
+            width: 33px;
+            text-align: center;
+        }

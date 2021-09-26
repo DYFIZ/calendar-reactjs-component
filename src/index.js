@@ -1,0 +1,10 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Calendar from './components/Calendar';
+ReactDOM.render( < Calendar / > , document.getElementById('calendar'));
+ReactDOM.render( < Calendar / > , document.getElementById('calendar1'));
+ReactDOM.render( < Calendar / > , document.getElementById('calendar2'));
+ReactDOM.render( < Calendar / > , document.getElementById('calendar3'));
+ReactDOM.render( < Calendar / > , document.getElementById('calendar4'));
+ReactDOM.render( < Calendar / > , document.getElementById('calendar5'));
+ReactDOM.render( < Calendar / > , document.getElementById('calendar6'));
