@@ -28,18 +28,9 @@ class Calendar extends React.Component {
      //#let 's shift dates to their position column(mo,tu..., 2->Tue) ..)
      addEmptyFields(sortedDays) {
          let keys = Object.keys(sortedDays);
-        
          let stopAddingEmptyField = false;
       
         keys.forEach((el,index)=>{
-           // let previousIndex = keys.indexOf(week);
-           // let nextIndex = keys.indexOf(week)+1;
-            //let nextItem = keys[nextIndex];
-           
-           //error
-            //let previousItem = keys[previousIndex];
-           // console.log('l.. '+sortedDays[keys[j]].length);
-          console.log(index);
             if(sortedDays[keys[index]][0]!=1 && stopAddingEmptyField ==false && sortedDays[keys[index]].length!=6 ){
                 sortedDays[keys[index]].unshift('');
             }else if(sortedDays[keys[index]][0]==1){stopAddingEmptyField =true;}
